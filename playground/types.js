@@ -56,3 +56,7 @@ const person = {
 console.log(person.firstName);
 console.log(person.lastName);
 console.log(person.age);
+
+// null and undefined
+let somethingUndefined;
+let somethingNull = null;
