@@ -60,3 +60,10 @@ console.log(person.age);
 // null and undefined
 let somethingUndefined;
 let somethingNull = null;
+
+
+// booleans
+let isDrawing = false;
+const ageInPassport = 17;
+const ofAge = ageInPassport > 18
+console.log(ofAge);
