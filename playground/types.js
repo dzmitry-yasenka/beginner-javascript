@@ -26,3 +26,20 @@ let html = `
 </div>`;
 
 document.body.innerHTML = html;
+
+const age = 100.5;
+
+const a = 20;
+const b = 10;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+
+console.log(Math.random());
+console.log(Math.random());
+console.log(Math.random());
+console.log(Math.round(2.49));
+console.log(Math.round(2.5));
+console.log(Math.floor(2.999));
+console.log(Math.ceil(2.111));
