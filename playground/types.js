@@ -1,5 +1,6 @@
 console.log("it works")
 
+// types - strings
 const name = "Dima";
 let one = "one";
 let two = 'two';
@@ -16,7 +17,6 @@ sdlfkjsdlkfj
 
 sdlkfjsldkfjlksdjf`;
 
-
 let helloMessage = `Hello! My name is ${name}. I am ${100 + 1} years`;
 
 let html = `
@@ -27,6 +27,7 @@ let html = `
 
 document.body.innerHTML = html;
 
+// types - number
 const age = 100.5;
 
 const a = 20;
@@ -43,3 +44,15 @@ console.log(Math.round(2.49));
 console.log(Math.round(2.5));
 console.log(Math.floor(2.999));
 console.log(Math.ceil(2.111));
+
+//types - objects
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 100
+};
+
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
