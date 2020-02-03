@@ -17,7 +17,7 @@ function sayHiTo(name) {
     return `Hello to ${name}!`;
 }
 
-function docerize(name) {
+function doctorize(name) {
     return `Dr. ${name}`;
 }
 
