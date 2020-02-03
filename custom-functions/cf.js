@@ -25,4 +25,4 @@ function yell(message) {
     return message.toUpperCase();
 }
 
-console.log(yell(sayHiTo(docerize(name))));
+console.log(yell(sayHiTo(doctorize(name))));
