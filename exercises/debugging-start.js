@@ -7,3 +7,18 @@ const people = [
 people.forEach((person, index) => {
     console.log(person.name);;
 });
+
+
+function doctorize(name) {
+    console.count(`running doctorize for ${name}`);
+    return `Dr. ${name}`;
+}
+
+function greet(name) {
+    return `Hello ${name}`;
+}
+
+function go(name) {
+    return greet(doctorize(name));
+}
+
